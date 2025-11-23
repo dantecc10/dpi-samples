@@ -1,0 +1,99 @@
+object Form1: TForm1
+  Left = 557
+  Height = 530
+  Top = 311
+  Width = 676
+  Caption = 'Form1'
+  ClientHeight = 530
+  ClientWidth = 676
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Image1: TImage
+    Cursor = crHandPoint
+    Left = 24
+    Height = 448
+    Top = 32
+    Width = 433
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+  end
+  object Button1: TButton
+    Left = 472
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Trazar lineas'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 472
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Eipse'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 480
+    Height = 23
+    Top = 256
+    Width = 80
+    OnChange = Edit1Change
+    TabOrder = 2
+    Text = 'R'
+  end
+  object Edit2: TEdit
+    Left = 480
+    Height = 23
+    Top = 296
+    Width = 80
+    TabOrder = 3
+    Text = 'G'
+  end
+  object Edit3: TEdit
+    Left = 480
+    Height = 23
+    Top = 336
+    Width = 80
+    TabOrder = 4
+    Text = 'B'
+  end
+  object Button3: TButton
+    Left = 476
+    Height = 25
+    Top = 129
+    Width = 75
+    Caption = 'Primitivas gráficas'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 504
+    Top = 176
+  end
+end

@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 547
+  Height = 578
+  Top = 213
+  Width = 704
+  Caption = 'Arreglos-Matrices'
+  ClientHeight = 578
+  ClientWidth = 704
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object StringGrid1: TStringGrid
+    Left = 248
+    Height = 24
+    Top = 56
+    Width = 208
+    BorderStyle = bsNone
+    DefaultColWidth = 40
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    ScrollBars = ssNone
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Llenar Arr'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object StringGrid2: TStringGrid
+    Left = 240
+    Height = 160
+    Top = 88
+    Width = 168
+    DefaultColWidth = 30
+    DefaultRowHeight = 30
+    FixedCols = 0
+    FixedRows = 0
+    ScrollBars = ssNone
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 144
+    Width = 91
+    Caption = 'Llena MAt'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object StringGrid3: TStringGrid
+    Left = 251
+    Height = 40
+    Top = 288
+    Width = 40
+    ColCount = 1
+    DefaultColWidth = 30
+    DefaultRowHeight = 30
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 1
+    ScrollBars = ssNone
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 303
+    Width = 26
+    Caption = 'Filas:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 91
+    Height = 23
+    Top = 297
+    Width = 48
+    TabOrder = 5
+    Text = '1'
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 15
+    Top = 342
+    Width = 26
+    Caption = 'Cols:'
+    ParentColor = False
+  end
+  object Edit2: TEdit
+    Left = 91
+    Height = 23
+    Top = 336
+    Width = 48
+    TabOrder = 6
+    Text = '1'
+  end
+  object Button3: TButton
+    Left = 64
+    Height = 41
+    Top = 384
+    Width = 123
+    Caption = 'Llena matriz dinámica'
+    OnClick = Button3Click
+    TabOrder = 7
+  end
+end

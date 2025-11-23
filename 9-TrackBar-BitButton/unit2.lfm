@@ -1,0 +1,50 @@
+object Form2: TForm2
+  Left = 500
+  Height = 190
+  Top = 256
+  Width = 382
+  BorderStyle = bsDialog
+  Caption = 'Proporcionar valor...'
+  ClientHeight = 190
+  ClientWidth = 382
+  LCLVersion = '2.0.12.0'
+  object TrackBar1: TTrackBar
+    Left = 96
+    Height = 25
+    Top = 80
+    Width = 148
+    Max = 255
+    OnChange = TrackBar1Change
+    Position = 200
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 160
+    Height = 1
+    Top = 40
+    Width = 1
+    ParentColor = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 64
+    Height = 30
+    Top = 125
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 200
+    Height = 30
+    Top = 125
+    Width = 75
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 2
+  end
+end
